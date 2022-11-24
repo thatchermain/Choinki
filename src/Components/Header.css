@@ -1,0 +1,143 @@
+header {
+  /* position: relative; */
+  top: 5rem;
+  margin: 5rem 0 0;
+  width: 100vw;
+  height: calc(100vh - 5rem);
+  background-image: url("../assets/images/hero.jpg");
+  background-position: 70% 20%;
+  background-color: rgb(115, 165, 95);
+  background-blend-mode: multiply;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0 6rem 6rem;
+  /* scroll-margin: 0rem; */
+}
+@media screen and (max-width: 800px) {
+  header {
+    padding: 0 2rem;
+  }
+}
+
+.phone {
+  font-size: 7rem;
+  position: absolute;
+  top: 7rem;
+  right: 2rem;
+  color: #e8740f;
+  font-weight: bold;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.icon {
+  animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+  5% {
+    transform: rotate(75deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(75deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+}
+.start__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+@media screen and (max-width: 800px) {
+  .start__wrapper {
+    justify-content: center;
+  }
+}
+.start {
+  position: relative;
+  bottom: 2rem;
+  right: 2rem;
+  color: #e8740f;
+  font-size: 1.5rem;
+  font-size: clamp(1rem, calc(0.12rem + 2.06vw), 2rem);
+  font-weight: bold;
+  position: absolute;
+
+  text-align: center;
+  /* background-color: rgba(0,0,0, .5); */
+}
+.header__container {
+  width: 90%;
+}
+@media screen and (max-width: 800px) {
+  .header__container {
+    width: 100%;
+  }
+}
+.header__title {
+  font-size: 6rem;
+  font-size: clamp(3.3rem, calc(0.12rem + 8.06vw), 6rem);
+  color: rgb(241, 206, 7);
+  color: #c0c0c0;
+  color: #ffffff;
+  padding: 2rem 0 2rem;
+}
+.header__details {
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-size: clamp(1.75rem, calc(0.12rem + 4.06vw), 3rem);
+  color: rgb(241, 206, 7);
+  color: #c0c0c0;
+  color: #ffffff;
+}
+.header__icon {
+  font-size: 2rem;
+  font-size: clamp(1rem, calc(0.12rem + 4.06vw), 3rem);
+  color: crimson;
+  color: #73a549;
+}
+.header__cta {
+  max-width: 320px;
+  color: rgb(241, 206, 7);
+  color: #c0c0c0;
+  color: #ffffff;
+  background-color: crimson;
+  background-color: #73a549;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 4rem 0rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.4s;
+  animation: blink 1s linear infinite;
+}
+@media screen and (max-width: 400px) {
+  .header__cta {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}
+.header__cta:hover {
+  color: #0b1308;
+  background-color: rgb(241, 206, 7);
+  background-color: #e8740f;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #73a549;
+  }
+  50% {
+    background-color: #e8740f;
+  }
+}

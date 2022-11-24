@@ -1,0 +1,127 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 5rem;
+  background-color: #0b1308;
+  /* background-color: crimson; */
+  /* background-image: linear-gradient(
+    180deg,
+    rgb(236, 194, 3) 0%,
+
+    rgb(153, 113, 4) 100%
+  ); */
+  /* background-image: linear-gradient(
+    180deg,
+    rgb(0, 138, 7) 0%,
+
+    rgb(21, 141, 21) 100%
+  ); */
+}
+.navbar__container {
+  width: 90%;
+  height: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.logo_outer {
+  background-color: #fff;
+}
+.logo_inner {
+  background-color: #fff;
+  border: 2px solid green;
+  padding: 5px;
+}
+.navbar__links {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 1 60%;
+  list-style: none;
+}
+.navbar__item {
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+@media screen and (max-width: 900px) {
+  .navbar__links {
+    position: absolute;
+    width: 20rem;
+    width: 100%;
+    flex-direction: column;
+    top: 5rem;
+    right: 0;
+
+    padding: 2rem 0;
+    /* transform: translateX(100%); */
+    transform: scale(0);
+    transform-origin: 100% 50%;
+    /* background: linear-gradient(rgb(153, 113, 4) 0%, rgb(236, 194, 3) 100%); */
+    background-color: #0b1308;
+  }
+  .navbar__item {
+    transition: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .navbar__links {
+    width: 100%;
+  }
+}
+
+.show__mobileMenu {
+  /* transform: translateX(0); */
+  transform: scale(1);
+  transition: all 0.7s;
+}
+
+.navbar__item {
+  padding: 1.75rem 1.25rem;
+  width: 100%;
+}
+/* .navbar__item:hover {
+  background-color: rgb(180, 152, 28);
+  background-color: rgb(16, 68, 14);
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar__links a {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .navbar__links a:hover {
+    background-color: rgb(180, 152, 28);
+  }
+} */
+.hamburger {
+  /* width: 2rem;
+    height: 2rem; */
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.hamburger__btn {
+  font-size: 2rem;
+  color: #02500d;
+  transition: all 1s;
+}
