@@ -22,7 +22,7 @@
   color: #ffffff;
   color: #e0630f;
 }
-.wrapper {
+.pricing__wrapper {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;

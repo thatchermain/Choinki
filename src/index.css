@@ -10,17 +10,18 @@ html {
 }
 .body {
   overflow-x: hidden;
+  padding-top: 5rem;
 }
 a {
   text-decoration: none;
   color: #02500d;
   color: #c0c0c0;
   color: #73a55f;
- 
+
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: 5px;
 }
-a:hover{
+a:hover {
   color: #e8740f;
 }

@@ -1,5 +1,55 @@
-.gallery{
-    text-align: center;
-    padding: 2rem 0;
-    background-color: green;
+/* .gallery {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: green;
+} */
+.gallery {
+  background-color: rgb(255, 255, 255);
+  /* background-image: url(../assets/images/gallery/snow.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0 2rem;
+  color: #20520e;
+  text-align: center;
+  font-size: 2rem;
+  scroll-margin-top: 5rem;
+  height: 100vh;
+}
+.gallery h2 {
+  color: #e0630f;
+}
+.gallery__wrapper {
+  margin: 0 auto;
+  width: 80%;
+  /* background-color: rgb(248, 248, 0); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.main {
+  width: 100%;
+  /* background-color: red; */
+  /* height: 45vh; */
+}
+.main img {
+  height: 50vh;
+  /* width: 100%; */
+}
+.extras {
+  width: 60%;
+  /* background-color: blue; */
+  /* height: 15vh; */
+}
+.controls {
+  display: flex;
+  gap: 3rem;
+}
+.btn {
+  width: 130px;
+  padding: 1rem 0rem;
+  background-color: #20520e;
+  color: #e0630f;
+  border-radius: 15px;
 }

@@ -6,12 +6,14 @@ import Tree2 from "../assets/images/jkrdoniczka.jpg";
 import Tree3 from "../assets/images/mala.jpg";
 import Tree4 from "../assets/images/duza.jpg";
 import Tree5 from "../assets/images/standard.jpg";
+import Serb from "../assets/images/serb.jpg";
+import Srebrny from "../assets/images/srebrny.jpg";
 
 const Pricing = () => {
   return (
     <section id="pricing" className="pricing">
       <h3 className="title">CENNIK</h3>
-      <div className="wrapper">
+      <div className="pricing__wrapper">
         <div className="card__container">
           <div className="single__card">
             <div className="card__info">
@@ -65,7 +67,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <div className="wrapper">
+      <div className="pricing__wrapper">
         <div className="card__container">
           <div className="single__card">
             <div className="card__info">
@@ -88,7 +90,7 @@ const Pricing = () => {
               <p className="card__info-text">Kopany z gruntu z korzeniem</p>
             </div>
             <div className="card__img">
-              <img src={Img} alt="" />
+              <img src={Serb} alt="" />
             </div>
           </div>
         </div>
@@ -102,7 +104,7 @@ const Pricing = () => {
               <p className="card__info-text">Kopany z gruntu z korzeniem</p>
             </div>
             <div className="card__img">
-              <img src={Img} alt="" />
+              <img src={Srebrny} alt="" />
             </div>
           </div>
         </div>
