@@ -24,18 +24,24 @@ const Gallery = () => {
         <h2>GALERIA</h2>
       </div>
       <div className="gallery__wrapper">
+        {/* <div className="previous">
+          <img src={gallery[`${currentImg}`].src} alt="" />
+        </div> */}
         <div className="main">
           <img src={gallery[`${currentImg}`].src} alt="" />
         </div>
-        <div className="extras"></div>
-        <div className="controls">
-          <button className="btn" onClick={showPrev}>
-            Poprzednie
-          </button>
-          <button className="btn" onClick={showNext}>
-            Następne
-          </button>
-        </div>
+        {/* <div className="next">
+          <img src={gallery[`${currentImg}`].src} alt="" />
+        </div> */}
+      </div>
+      <div className="extras"></div>
+      <div className="controls">
+        <button className="btn" onClick={showPrev}>
+          Poprzednie
+        </button>
+        <button className="btn" onClick={showNext}>
+          Następne
+        </button>
       </div>
     </div>
   );

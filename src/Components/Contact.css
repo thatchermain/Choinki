@@ -4,6 +4,12 @@
   text-align: center;
   font-size: 2rem;
   scroll-margin-top: 5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url(../assets/images/gallery/snow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-attachment: fixed;
 }
 .contact h2 {
   color: #e0630f;
@@ -11,10 +17,11 @@
 .container {
   display: flex;
   /* border: 2px solid red; */
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 2.3rem;
 }
 @media screen and (max-width: 800px) {
   .container {
@@ -23,10 +30,15 @@
     gap: 2rem;
   }
 }
+.left {
+  min-width: 400px;
+  width: 50%;
+}
 .left h3 {
   padding: 1rem 0;
   font-size: 4rem;
   font-size: clamp(1.5rem, calc(0.12rem + 2.06vw), 4rem);
+  text-shadow: 1px 1px 2px white;
 }
 
 .right {
@@ -45,4 +57,10 @@
 .right img {
   width: 80%;
   box-shadow: 5px 5px 20px #20520e;
+}
+.contact__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }

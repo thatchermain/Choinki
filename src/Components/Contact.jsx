@@ -14,9 +14,10 @@ const Contact = () => {
           <h3>Tomasz Sacha</h3>
           <h3>ul. GOLIS 6</h3>
           <h3>Koszyce Wielkie</h3>
-          <h3>
+          <h3 className="contact__phone">
             {" "}
-            <BsFillTelephoneOutboundFill /> 604 210 980
+            <BsFillTelephoneOutboundFill />
+            <span>604 210 980</span>
           </h3>
         </div>
         <div className="right">

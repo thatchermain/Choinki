@@ -1,16 +1,12 @@
 .pricing {
   width: 100vw;
   min-height: 100vh;
-  background-color: rgb(3, 54, 26);
-  background-image: radial-gradient(
-    rgb(102, 93, 93),
-    rgb(15, 78, 21),
-    rgb(102, 93, 93),
-    rgb(15, 78, 21),
-    rgb(102, 93, 93)
-  );
-  /* background-image: url("../assets/images/pricing.jpg"); */
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(../assets/images/gallery/snow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-attachment: fixed;
   scroll-margin: 4rem;
   padding-bottom: 2rem;
 }
