@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/logo.png";
+
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import "./Navbar.css";
@@ -15,16 +15,12 @@ const Navbar = () => {
       <div className="navbar__container">
         <div className="logo">
           <a href="#home">
-            {/* <img src={Logo} alt="" /> */}
             <div className="logo_outeer">
               <div className="logo_inner">CHOINKI</div>
             </div>
           </a>
         </div>
         <ul className={`${isOpen ? "show__mobileMenu" : ""} navbar__links`}>
-          {/* <a href="#about">
-            <li className="navbar__item">O nas</li>
-          </a> */}
           <a href="#pricing" onClick={() => setIsOpen(false)}>
             <li className="navbar__item">Cennik</li>
           </a>

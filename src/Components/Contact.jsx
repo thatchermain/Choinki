@@ -24,6 +24,7 @@ const Contact = () => {
             className="fb__link"
             href="https://www.facebook.com/people/Tomasz-Sacha/100075615355839/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="fb">
               <p>Odwiedź nas na</p>

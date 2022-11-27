@@ -3,14 +3,11 @@ import "./Gallery.css";
 import { gallery } from "../data/gallery";
 const Gallery = () => {
   const [currentImg, setCurrentImg] = useState(1);
-  const [nextImg, setNextImg] = useState(2);
-  const [previousImg, setPreviousImg] = useState(0);
 
   const showNext = () => {
     currentImg < gallery.length - 1
       ? setCurrentImg(currentImg + 1)
       : setCurrentImg(1);
-    console.log(currentImg);
   };
 
   const showPrev = () => {

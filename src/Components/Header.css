@@ -1,5 +1,4 @@
 header {
-  /* position: relative; */
   top: 5rem;
   margin: 5rem 0 0;
   width: 100vw;
@@ -13,7 +12,6 @@ header {
   flex-direction: column;
   justify-content: center;
   padding: 6rem 0 6rem 6rem;
-  /* scroll-margin: 5rem; */
 }
 @media screen and (max-width: 800px) {
   header {
@@ -31,9 +29,6 @@ header {
   display: flex;
   gap: 2rem;
   align-items: center;
-}
-.icon {
-  /* animation: ring 2s linear infinite; */
 }
 
 .start__wrapper {
@@ -54,7 +49,7 @@ header {
   font-size: 1.5rem;
   font-size: clamp(1rem, calc(0.12rem + 2.06vw), 2rem);
   font-weight: bold;
-  /* position: absolute; */
+
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
@@ -99,7 +94,6 @@ header {
 }
 @media screen and (max-width: 800px) {
   .header__details {
-    /* width: 100%; */
     padding: 0.5rem;
     font-size: clamp(1.3rem, calc(0.12rem + 8.06vw), 6rem);
   }
@@ -125,7 +119,6 @@ header {
   cursor: pointer;
   position: relative;
   transition: all 0.4s;
-  /* animation: blink 1s linear infinite; */
 }
 @media screen and (max-width: 400px) {
   .header__cta {

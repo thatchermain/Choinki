@@ -1,6 +1,5 @@
 import React from "react";
 import "./Pricing.css";
-import Img from "../assets/images/logo.png";
 import Tree1 from "../assets/images/Duzaa.jpg";
 import Tree2 from "../assets/images/jkrdoniczka.jpg";
 import Tree3 from "../assets/images/mala.jpg";

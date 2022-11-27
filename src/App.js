@@ -1,6 +1,5 @@
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
-import AboutUs from "./Components/AboutUs";
 import Pricing from "./Components/Pricing";
 import Gallery from "./Components/Gallery";
 import Contact from "./Components/Contact";
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      {/* <AboutUs /> */}
       <Pricing />
       <Gallery />
       <Contact />

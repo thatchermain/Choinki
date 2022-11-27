@@ -29,7 +29,6 @@
 }
 .card__container {
   display: flex;
-  /* flex-direction: column; */
   width: 23rem;
   min-width: 260px;
   justify-content: center;
@@ -40,7 +39,6 @@
   background-color: #fff;
   padding: 1rem;
   text-align: center;
-  /* height: 15rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -52,24 +50,13 @@
   font-weight: bold;
   font-family: "Grenze Gotisch", cursive;
 }
-/* .text-big {
-  font-size: 2.4rem;
-}
-.text-biger {
-  font-size: 2.7rem;
-}
-.text-bigest {
-  font-size: 3rem;
-} */
 .price {
   color: #e8740f;
   font-weight: bold;
   font-size: 3rem;
 }
 .card__img {
-  /* background-color: red; */
   padding: 1rem 0;
-  /* height: 20rem; */
   width: 100%;
   overflow: hidden;
   position: relative;

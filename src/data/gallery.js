@@ -18,6 +18,12 @@ import tree6 from "../assets/images/gallery/tree6.jpg";
 import tree7 from "../assets/images/gallery/tree7.jpeg";
 import tree8 from "../assets/images/gallery/tree8.jpeg";
 import tree9 from "../assets/images/gallery/tree9.jpg";
+import tree10 from "../assets/images/duza.jpg";
+import tree11 from "../assets/images/Duzaa.jpg";
+import tree12 from "../assets/images/jkrdoniczka.jpg";
+import tree13 from "../assets/images/mala.jpg";
+import tree14 from "../assets/images/ogromna.jpg";
+import tree15 from "../assets/images/standard.jpg";
 
 export const gallery = [
   {
@@ -99,5 +105,29 @@ export const gallery = [
   {
     id: 19,
     src: tree9,
+  },
+  {
+    id: 20,
+    src: tree10,
+  },
+  {
+    id: 21,
+    src: tree11,
+  },
+  {
+    id: 22,
+    src: tree12,
+  },
+  {
+    id: 23,
+    src: tree13,
+  },
+  {
+    id: 24,
+    src: tree14,
+  },
+  {
+    id: 25,
+    src: tree15,
   },
 ];
