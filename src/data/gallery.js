@@ -9,6 +9,15 @@ import swierk2 from "../assets/images/gallery/swierk2.jpg";
 import swierk10 from "../assets/images/gallery/swierk10.jpg";
 import swierk4 from "../assets/images/gallery/swierk4.jpg";
 import swierk5 from "../assets/images/gallery/swierk5.jpg";
+import tree1 from "../assets/images/gallery/tree1.jpeg";
+import tree2 from "../assets/images/gallery/tree2.jpeg";
+import tree3 from "../assets/images/gallery/tree3.jpeg";
+import tree4 from "../assets/images/gallery/tree4.jpeg";
+import tree5 from "../assets/images/gallery/tree5.jpeg";
+import tree6 from "../assets/images/gallery/tree6.jpg";
+import tree7 from "../assets/images/gallery/tree7.jpeg";
+import tree8 from "../assets/images/gallery/tree8.jpeg";
+import tree9 from "../assets/images/gallery/tree9.jpg";
 
 export const gallery = [
   {
@@ -16,43 +25,79 @@ export const gallery = [
     src: jodla1,
   },
   {
-    id: 0,
+    id: 1,
     src: jodla2,
   },
   {
-    id: 0,
+    id: 2,
     src: jodla3,
   },
   {
-    id: 0,
+    id: 3,
     src: jodla4,
   },
   {
-    id: 0,
+    id: 4,
     src: serb,
   },
   {
-    id: 0,
+    id: 5,
     src: srebrny,
   },
   {
-    id: 0,
+    id: 6,
     src: swierk1,
   },
   {
-    id: 0,
+    id: 7,
     src: swierk10,
   },
   {
-    id: 0,
+    id: 8,
     src: swierk2,
   },
   {
-    id: 0,
+    id: 9,
     src: swierk4,
   },
   {
-    id: 0,
+    id: 10,
     src: swierk5,
+  },
+  {
+    id: 11,
+    src: tree1,
+  },
+  {
+    id: 12,
+    src: tree2,
+  },
+  {
+    id: 13,
+    src: tree3,
+  },
+  {
+    id: 14,
+    src: tree4,
+  },
+  {
+    id: 15,
+    src: tree5,
+  },
+  {
+    id: 16,
+    src: tree6,
+  },
+  {
+    id: 17,
+    src: tree7,
+  },
+  {
+    id: 18,
+    src: tree8,
+  },
+  {
+    id: 19,
+    src: tree9,
   },
 ];

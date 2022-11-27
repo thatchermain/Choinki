@@ -30,11 +30,11 @@ const Header = () => {
         </a>
       </div>
       <div className="start__wrapper">
-        <div className="start">
+        {/* <div className="start">
           <h3>PLANOWANE ROZPOCZĘCIE SEZONU</h3>
           <h3>5 - 8 grudnia 2022</h3>
           <h3>Uzależnione od warunków atmosferycznych</h3>
-        </div>
+        </div> */}
       </div>
     </header>
   );

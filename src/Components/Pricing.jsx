@@ -13,6 +13,18 @@ const Pricing = () => {
   return (
     <section id="pricing" className="pricing">
       <h3 className="title">CENNIK</h3>
+      <div className="banner">
+        <p>
+          Od poniedziałku 28-go listopada - Świerk Srebrny i Świerk Serbski,
+          kopany w doniczce w cenie 35zł.
+        </p>
+        <br />
+        <p>
+          Sprzedaż Jodły zaczyna się w dniach 5 - 8 grudnia (w zależności od
+          warunków atmosferycznych).
+        </p>
+        <p></p>
+      </div>
       <div className="pricing__wrapper">
         <div className="card__container">
           <div className="single__card">

@@ -33,23 +33,9 @@ header {
   align-items: center;
 }
 .icon {
-  animation: ring 2s linear infinite;
+  /* animation: ring 2s linear infinite; */
 }
 
-@keyframes ring {
-  5% {
-    transform: rotate(75deg);
-  }
-  10% {
-    transform: rotate(0deg);
-  }
-  15% {
-    transform: rotate(75deg);
-  }
-  20% {
-    transform: rotate(0deg);
-  }
-}
 .start__wrapper {
   width: 100%;
   display: flex;
